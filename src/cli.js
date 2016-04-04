@@ -2,7 +2,7 @@ import upload from './upload';
 import { resolve } from 'path';
 import { randomHost, getHostPair } from './hosts';
 
-let [,, file, host = 'r'] = process.argv;
+let [,, host, file] = process.argv;
 
 let [service, transform] = host === 'r' || host === 'random'
 	? randomHost()
