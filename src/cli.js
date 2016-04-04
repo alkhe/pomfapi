@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import upload from './upload';
 import { resolve } from 'path';
 import { randomHost, getHostPair } from './hosts';
