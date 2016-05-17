@@ -1,6 +1,6 @@
 {
   "name": "pomfapi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "pomf.is API",
   "main": "lib/index.js",
   "bin": {
