@@ -7,6 +7,7 @@ let resolveUpload = host =>
 ;
 
 export let hosts = mapValues({
+	lainfile: 'lainfile.pw',
 	is: 'pomf.is',
 	mixtape: 'mixtape.moe',
 	cat: ['pomf.cat', 'a.pomf.cat'],
